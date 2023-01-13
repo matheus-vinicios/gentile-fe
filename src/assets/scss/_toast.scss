@@ -1,0 +1,27 @@
+.toast-title
+{
+  font-size: 14px !important;
+  color: #FFFFFF !important;
+}
+
+.toast-message
+{
+  font-size: 14px !important;
+  color: #FFFFFF !important;
+}
+
+.toast-close-button
+{
+  text-shadow: none !important;
+}
+
+.toast-container .ngx-toastr
+{
+  border-radius: none !important;
+  box-shadow: none !important;
+}
+
+.toast-container .ngx-toastr:hover
+{
+  box-shadow: none !important;
+}

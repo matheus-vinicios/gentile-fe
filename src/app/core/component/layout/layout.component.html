@@ -1,0 +1,29 @@
+<div id="main-wrapper">
+  <div id="preloader">
+    <div id="status">
+      <div class="status-mes"></div>
+    </div>
+  </div>
+  <div class="columns-block">
+    <div class="left-col-block blocks">
+      <header class="header">
+        <div class="content text-center">
+          <h1>Matheus Gentile</h1>
+          <p class="lead">Analista de TI<br/>Desenvolvedor Full Stack Sênior</p>
+          <ul class="social-icon">
+            <li><a href="https://www.linkedin.com/in/gentiledev/" target="_blank"><fa-icon [icon]="['fab', 'linkedin']" size="lg"></fa-icon></a></li>
+            <li><a href="https://github.com/matheusgentile" target="_blank"><fa-icon [icon]="['fab', 'github']" size="lg"></fa-icon></a></li>
+            <li><a href="https://www.instagram.com/gentile.dev/" target="_blank"><fa-icon [icon]="['fab', 'instagram']" size="lg"></fa-icon></a></li>
+            <li><a href="mailto:matheus@gentile.dev"><fa-icon [icon]="['far', 'envelope']" size="lg"></fa-icon></a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=5565999317464" target="_blank"><fa-icon [icon]="['fab', 'whatsapp']" size="lg"></fa-icon></a></li>
+          </ul>
+        </div>
+        <div class="profile-img"></div>
+      </header>
+    </div>
+    <div class="right-col-block blocks">
+      <router-outlet></router-outlet>
+      <rodape-component></rodape-component>
+    </div>
+  </div>
+</div>
