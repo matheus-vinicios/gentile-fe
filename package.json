@@ -12,8 +12,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build-homologation": "ng build --configuration=homologation --build-optimizer --baseHref=/gentile-fe/",
-    "build-production": "ng build --configuration=production --build-optimizer",
+    "build-homologation": "node --max_old_space_size=5048 ./node_modules/@angular/cli/bin/ng build --configuration=homologation --build-optimizer --base-href=/gentile-fe/",
+    "build-production": "node --max_old_space_size=5048 ./node_modules/@angular/cli/bin/ng build --configuration=production --build-optimizer",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
