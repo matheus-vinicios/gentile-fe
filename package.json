@@ -12,8 +12,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build-hmg": "ng build --configuration=homologation --build-optimizer --baseHref=/gentile-fe/",
-    "build-prd": "ng build --configuration=production --build-optimizer",
+    "build-homologation": "ng build --configuration=homologation --build-optimizer --baseHref=/gentile-fe/",
+    "build-production": "ng build --configuration=production --build-optimizer",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
